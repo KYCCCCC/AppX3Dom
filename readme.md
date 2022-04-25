@@ -14,6 +14,12 @@ git remote add origin https://github.com/KYCCCCC/AppX3Dom.git
 git push -u origin main
 ```
 
+```
+git remote add origin git@github.com:KYCCCCC/AppX3Dom.git
+git branch -M main
+git push -u origin main
+```
+
 ## boostrap 4.6
 https://v4.bootcss.com/
 ## 3D MODEL
