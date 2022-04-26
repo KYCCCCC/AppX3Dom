@@ -378,7 +378,7 @@
                 
                 <!-- Modal body -->
                 <div class="modal-body">
-                  <p>Dr Martin White, Chichester 1, 126, Email: m.white@sussex.ac.uk</p>
+                  <p>KYCCCCC , Email: 1659104012@qq.com</p>
                 </div>
                 
                 <!-- Modal footer -->
