@@ -170,7 +170,7 @@ Further, I am not sure it has anything to do with the .container class as report
 /* CSS rule to overwrite the navbar-brand font hover color
 */
 .navbar_coca_cola .navbar-brand:hover {
-    color: green;
+    color: red;
 }
     
 /* NAVIGATION MENU

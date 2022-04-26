@@ -30,10 +30,10 @@
             <!-- Brand -->
             <div class="logo">
               <a class="navbar-brand" href="#">
-                <h1>Future</h1>
+                <h1>1oca</h1>
                 <h2>Cola</h2>
                 <h3>Journey</h3>
-                <p>Future cola , Best cola for Chinese !</p>
+                <p>Refreshing the world, one story at a time</p>
               </a>
             </div>
 
@@ -75,9 +75,9 @@
               <div class="col-sm-12">
                   <div id="main_3d_image">
                       <div id="main_text" class="col-xs-12 col-sm-4">
-                        <div id="title_home">Future cola</div>
-                        <div id="subTitle_home">are you happpy</div>
-                        <div id="description_home"> drink happy cola</div>
+                        <div id="title_home"></div>
+                        <div id="subTitle_home"></div>
+                        <div id="description_home"></div>
                       </div> 
                     </div>
               </div>
@@ -88,7 +88,7 @@
                   <div class="col-sm-4">
                       <div class="card img-narrow">
                           <a href="static/assets/images/renderImages/coke.jpg" data-fancybox data-caption="My 3D Coke Can Render">
-                            <img class="card-img-top img-fluid img-thumbnail" src="static/assets/images/future_cola.jpg" alt="Future Cola">
+                            <img class="card-img-top img-fluid img-thumbnail" src="static/assets/images/coca_cola.jpg" alt="Coca Cola">
                           </a>
                           <div class="card-body">
                                 <div id="title_left" class="card-title drinksText"></div>
@@ -102,7 +102,7 @@
                   <div class="col-sm-4">
                       <div class="card">
                           <a href="static/assets/images/renderImages/sprite.jpg" data-fancybox data-caption="My 3D Sprite Bottle Render" class="img-narrow">
-                            <img class="card-img-top img-fluid img-thumbnail" src="static/assets/images/peps.jpg" alt="pepsi">
+                            <img class="card-img-top img-fluid img-thumbnail" src="static/assets/images/sprite.jpg" alt="Sprite">
                           </a>
                           <div class="card-body">
                             <div id="title_centre" class="card-title drinksText"></div>
@@ -117,7 +117,7 @@
                   <div class="col-sm-4">
                       <div class="card img-narrow">
                           <a href="static/assets/images/renderImages/pepper.jpg" data-fancybox data-caption="My 3D Pepper Cup Render" class="thumbnail">
-                            <img class="card-img-top img-fluid img-thumbnail" src="static/assets/images/shifukong.jpg" alt="shifu kong">
+                            <img class="card-img-top img-fluid img-thumbnail" src="static/assets/images/dr_pepper.jpg" alt="Dr Pepper">
                           </a>
                           <div class="card-body">
                             <div id="title_right" class="card-title drinksText"></div>
@@ -155,9 +155,9 @@
                         <div id="x3dModelTitle_sprite" class="card-title drinksText"></div>
                         <div id="x3dModelTitle_pepper" class="card-title drinksText"></div>
 
-                        <button type="button" class="btn btn-success btn-responsive" onMouseUp="cokeScene(); cokeDescription();">futurecola</button>
-                        <button type="button" class="btn btn-success btn-responsive" onMouseUp="spriteScene(); spriteDescription();">pepsi</button>
-                        <button type="button" class="btn btn-success btn-responsive" onMouseUP="pepperScene(); pepperDescription();">ShifuKong</button>
+                        <button type="button" class="btn btn-success btn-responsive" onMouseUp="cokeScene(); cokeDescription();">Coke</button>
+                        <button type="button" class="btn btn-success btn-responsive" onMouseUp="spriteScene(); spriteDescription();">Sprite</button>
+                        <button type="button" class="btn btn-success btn-responsive" onMouseUP="pepperScene(); pepperDescription();">Pepper</button>
                         
                         <!-- Place the X3D code here -->
                         <div class="model3D">
@@ -165,13 +165,13 @@
                             <scene>
                                 <Switch whichChoice="0" id='SceneSwitch'>
                                     <transform>
-                                        <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="static/assets/x3d/futurecola.x3d" > </inline>
+                                        <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="static/assets/x3d/coke.x3d" > </inline>
                                     </transform>
                                     <transform>
-                                        <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="static/assets/x3d/peps.x3d"> </inline>
+                                        <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="static/assets/x3d/sprite.x3d"> </inline>
                                     </transform>
                                     <transform>
-                                        <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="static/assets/x3d/ShifuKong.x3d"> </inline>
+                                        <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="static/assets/x3d/pepper_animation.x3d"> </inline>
                                     </transform>
                                 </Switch>
                             </scene>
@@ -352,7 +352,7 @@
       <nav id="footerColor" class="navbar navbar-expand-sm footer">
           <div class="container-fluid">   
               <div class="navbar-text float-left copyright">
-                  <!-- <p><span class="align-baseline">&copy 2018 3D Apps | <a href="javascript:changeLook()">Restyle</a> | <a href="javascript:changeBack()">Reset</a></span></p> -->
+                  <p><span class="align-baseline">&copy 2018 3D Apps | <a href="javascript:changeLook()">Restyle</a> | <a href="javascript:changeBack()">Reset</a></span></p>
               </div>
               <div class="navbar-text float-right social">
                   <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
@@ -378,7 +378,7 @@
                 
                 <!-- Modal body -->
                 <div class="modal-body">
-                  <p> <a href="https://github.com/KYCCCCC/AppX3Dom"> github</a>   , KYCCCCC , Email: 1659104012@qq.com</p>
+                  <p>Dr Martin White, Chichester 1, 126, Email: m.white@sussex.ac.uk</p>
                 </div>
                 
                 <!-- Modal footer -->

@@ -1,4 +1,14 @@
-# 3DAPP WEB
++
+
+# X3Dom APP WEB
+
+
+
+## github repositories
+
+[https://github.com/KYCCCCC/AppX3Dom](https://github.com/KYCCCCC/AppX3Dom)
+
+[commit log](log.md) doc too view commit snapshot.
 
 ```
  git config --global user.name "KYCCCCC"
@@ -21,6 +31,7 @@ git push -u origin main
 ```
 
 ## boostrap 4.6
+
 https://v4.bootcss.com/
 ## 3D MODEL
 Blender
