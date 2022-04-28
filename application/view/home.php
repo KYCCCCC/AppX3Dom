@@ -131,7 +131,37 @@
           </div>  <!-- End home page contents-->
 
           <div id="about" style="display:none;">
-              Insert About Contents
+              <!-- Insert About Contents -->
+              <h2 class="h2">update content </h2>
+              <div>
+                  <form action="index.php?update" method = "post">
+                  <table class="table">
+                  <?php
+                  // print_r($data);
+                  for ($i=0 ; $i<=3;$i++){
+                  ?>
+                    <tr>
+                      <td>title <?php echo $i?> :</td><td><input class="form-control" type="text" name="title[]" value = "<?php echo $data[$i]["title"] ?> "></td>
+                    </tr>
+                    <tr>
+                      <td>subTitle <?php echo $i?> :</td><td><input class="form-control" type="text" name="subTitle[]" value = "<?php echo $data[$i]["subTitle"] ?> "></td>
+                    </tr>
+                    <tr>
+                      <td>description <?php echo $i?> :</td><td><textarea class="form-control" type="text" name="description[]" value = "  "><?php echo $data[$i]["description"] ?></textarea>
+                      <br/>
+                      <br/>
+                    </td>
+                    </tr>
+                  <?php
+                  }
+                  ?>
+                  <tr>
+                      <td></td>
+                      <td><input type="submit" class = "submit"></td>
+                    </tr>
+                  </table>
+                  </form>
+              </div>
           </div>  
 
           <!-- This is the content for X3D models and 3D Image Gallery -->
@@ -180,8 +210,10 @@
                         <div id="x3dCreationMethod_coke" class="card-text drinksText"></div>
                         <div id="x3dCreationMethod_sprite" class="card-text drinksText"></div>
                         <div id="x3dCreationMethod_pepper" class="card-text drinksText"></div>
+                        <div class="card-text drinksText" ><a href='https://github.com/KYCCCCC/AppX3Dom/tree/master/3d'> archive on github codebase </a> </div>
                     </div>
                   </div>
+                  
                 </div>
               </div>
 
@@ -195,23 +227,19 @@
                         </li>
                     </div>
                     <div class="card-body">
-                        <div class="card-title title_gallery drinksText"></div>
-                        <div class="gallery" id="gallery"></div>
-                        <div class="card-text description_gallery drinksText"></div>
+                        <div class="gallery" id="gallery"> </div>
+                        <div class="card-text description_gallery drinksText">rendering 3D Image Gallery objects by blender. </div>
                     </div>
                 </div> <!-- End gallery card -->
               </div> <!-- End gallery column -->
             </div> <!-- End row for X3D Model and Gallery -->
           </div> 
 
-          <!-- Row to hold the interaction panels -->
           <div id="interaction" class="row" style="display:none;">
-                <!-- Column for the camera view controls -->
                 <div class="col-sm-4">
                     <div class="card text-left">
                         <div class="card-header">
                           <ul class="nav nav-tabs card-header-tabs">
-                          <!-- Dropdown nav-tab -->
                           <li class="nav-item dropdown">
                               <a class="nav-link active dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Cameras</a>
                               <div class="dropdown-menu">
@@ -240,7 +268,6 @@
                         </div>
                       </div>
                 </div>
-                <!-- Column for the animation controls -->
                 <div class="col-sm-4">
                     <div class="card text-left">
                         <div class="card-header">
@@ -264,7 +291,6 @@
                         </div>
                       </div>
                 </div>
-                <!-- Column for the render type and lighting controls -->
                 <div class="col-sm-4">
                     <div class="card text-left">
                         <div class="card-header">
@@ -277,7 +303,6 @@
                                 <a class="dropdown-item" href="#">Vertex</a>
                               </div>
                             </li>
-                          <!-- Dropdown nav-tab -->
                           <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Lights</a>
                               <div class="dropdown-menu">
@@ -303,9 +328,7 @@
                         </div>
                       </div>
                 </div>
-          </div> <!-- End row for the interaction panels -->
-
-          <!-- Row to hold one card to hold the coke descriptive text, etc.-->
+          </div> 
           <div id="cokeDescription" class="row" style="display:none;">
               <div class="col-sm-12">
                   <div class="card">
@@ -317,9 +340,7 @@
                       </div>
                   </div>
               </div>
-          </div> <!-- End coke description contents -->
-
-          <!-- Row to hold one card to hold the sprite descriptive text, etc.-->
+          </div> 
           <div id="spriteDescription" class="row" style="display:none;">
               <div class="col-sm-12">
                   <div class="card">
@@ -331,9 +352,7 @@
                       </div>
                   </div>
               </div>
-          </div> <!-- End sprite description contents -->
-
-          <!-- Row to hold one card to hold the pepper descriptive text, etc.-->
+          </div>
           <div id="pepperDescription" class="row" style="display:none;">
               <div class="col-sm-12">
                   <div class="card">
@@ -345,14 +364,13 @@
                       </div>
                   </div>
               </div>
-          </div> <!-- End pepper description contents -->
-
-      </div> <!-- End 3D App SPA Contents -->
+          </div> 
+      </div> 
       
       <nav id="footerColor" class="navbar navbar-expand-sm footer">
           <div class="container-fluid">   
               <div class="navbar-text float-left copyright">
-                  <!-- <p><span class="align-baseline">&copy 2018 3D Apps | <a href="javascript:changeLook()">Restyle</a> | <a href="javascript:changeBack()">Reset</a></span></p> -->
+                  <p><span class="align-baseline">&copy 2022 3D Apps | <a href="javascript:changeLook()">Restyle</a> | <a href="javascript:changeBack()">Reset</a></span></p>
               </div>
               <div class="navbar-text float-right social">
                   <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
@@ -363,25 +381,19 @@
           </div>
       </nav> 
 
-      <!-- My 3D App modals -->
-      <!-- Contact modal -->
-      <!-- The Modal -->
       <div class="modal fade" id="contactModal">
           <div class="modal-dialog">
             <div class="modal-content">
             
-                <!-- Modal Header -->
                 <div class="modal-header">
                   <h4 class="modal-title">3D App Contact Details</h4>
                   <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 
-                <!-- Modal body -->
                 <div class="modal-body">
                   <p> <a href="https://github.com/KYCCCCC/AppX3Dom"> github</a>   , KYCCCCC , Email: 1659104012@qq.com</p>
                 </div>
                 
-                <!-- Modal footer -->
                 <div class="modal-footer">
                   <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                 </div>

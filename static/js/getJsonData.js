@@ -2,7 +2,8 @@
 $(document).ready(function(){
 
 	 //AJAX service request to get the main text data from the json data store
-	 $.getJSON('../application/model/data.json', function(jsonObj) {
+	//  $.getJSON('../application/model/data.json', function(jsonObj) {
+		$.getJSON('index.php?getJson', function(jsonObj) {
 		console.log(jsonObj);
 		//Get the home page main text data
 		$('#title_home').html('<h2>' + jsonObj.pageTextData[0].title + '<h2>');
@@ -45,13 +46,7 @@ $(document).ready(function(){
 		$('#subTitle_pepper').html('<h3>' + jsonObj.pageTextData[6].subTitle + '</h3>');
 		$('#description_pepper').html('<p>' + jsonObj.pageTextData[6].description + '</p>');
 		
-		//Get the gallery contents data
-		$('.title_gallery').html('<h2>' + jsonObj.pageTextData[7].galleryTitle + '<h2>');
-		$('.description_gallery').html('<p>' + jsonObj.pageTextData[7].galleryDescription + '</p>');
 
-		//Get camera contnets data
-		$('.x3dCameraTitle').html('<h2>' + jsonObj.pageTextData[8].CameraTitle + '<h2>');
-		$('.x3dCameraSubtitle').html('<p>' + jsonObj.pageTextData[8].CameraSubtitle + '<p');
 
 	 });
 });

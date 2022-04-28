@@ -7,4 +7,4 @@ $pageURI = $_SERVER['REQUEST_URI'];
 $pageURI = substr($pageURI,strrpos($pageURI,'index.php')+10);
 // echo 'pageuri'.$pageURI;
 new Controller($pageURI);
-echo "muc";
+// echo "muc";

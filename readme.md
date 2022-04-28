@@ -40,38 +40,45 @@ https://x3dom.org/download/1.3/docs/singlehtml/
 
 how to use X3DOOM
 ```
-                     <!-- Place the X3D code here -->
-                        <div class="model3D">
-                          <x3d id="wire">
-                            <scene>
-                                <Switch whichChoice="0" id='SceneSwitch'>
-                                    <transform>
-                                        <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="../application/assets/x3d/coke.x3d" > </inline>
-                                    </transform>
-                                    <transform>
-                                        <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="../application/assets/x3d/sprite.x3d"> </inline>
-                                    </transform>
-                                    <transform>
-                                        <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="../application/assets/x3d/pepper_animation.x3d"> </inline>
-                                    </transform>
-                                </Switch>
-                            </scene>
-                          </x3d>
-                        </div> 
+    <!-- Place the X3D code here -->
+    <div class="model3D">
+        <x3d id="wire">
+        <scene>
+            <Switch whichChoice="0" id='SceneSwitch'>
+                <transform>
+                    <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="../application/assets/x3d/coke.x3d" > </inline>
+                </transform>
+                <transform>
+                    <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="../application/assets/x3d/sprite.x3d"> </inline>
+                </transform>
+                <transform>
+                    <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="../application/assets/x3d/pepper_animation.x3d"> </inline>
+                </transform>
+            </Switch>
+        </scene>
+        </x3d>
+    </div> 
 ```
 ## PHP SEVER MVC
 https://www.php.net/
 ## SQLite db
-
+https://www.runoob.com/sqlite/sqlite-php.html
+https://www.php.net/manual/zh/class.sqlite3.php
+http://code.tutsplus.com/tutorials/why-you-should-be-using-phps-pdo-for-database-access--net-12059 
+http://culttt.com/2012/09/24/prevent-php-sql-injection-with-pdo-prepared-statements/
 ## JQUERY AJAX JSON
 http://t.mb5u.com/jquery/
 
 ## EXTRA FUNCTION
 use about page
-- UPLOAD IMAG
 - change data 
-
+```
+title <input type="text" name="title[]" value = "<?php echo $data[$i]["title"] ?> "><br>
+subTitle <input type="text" name="subTitle[]" value = " <?php echo $data[$i]["subTitle"] ?> "><br>
+description <textarea type="text" name="description[]" value = "  "><?php echo $data[$i]["description"] ?></textarea>
+```
 ## referance
 
 http://users.sussex.ac.uk/~martinwh/3dapp/labs/
 http://users.sussex.ac.uk/~martinwh/3dapp/lab9/CocaCola_VM/index.php/apicocacola#
+

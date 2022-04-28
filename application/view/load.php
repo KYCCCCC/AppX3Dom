@@ -4,7 +4,7 @@ class Load{
         if(is_array($data)){
             extract($data);
         }
-        echo 'load'.$file_name;
+        // echo 'load'.$file_name;
         include $file_name.'.php';
     }
 }

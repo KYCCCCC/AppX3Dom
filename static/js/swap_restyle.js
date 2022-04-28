@@ -136,7 +136,7 @@ function changeLook() {
 
 function changeBack() {
 	document.getElementById('bodyColor').style.backgroundColor = '#FFFFFF';
-	document.getElementById('headerColor').style.backgroundColor = 'rgba(175,0,0,1)';
-	document.getElementById('footerColor').style.backgroundColor = 'rgba(175,0,0,1)';
+	document.getElementById('headerColor').style.backgroundColor = 'gray';
+	document.getElementById('footerColor').style.backgroundColor = 'gray';
 }
 

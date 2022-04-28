@@ -40,6 +40,14 @@
 			"title": "Dr Pepper — Liquid Sunshine",
 			"subTitle": "23 fruit flavours",		
 			"description": "Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on. It was created by Texas pharmacist Charles Alderton in 1885. He gave a sample of the first ever batch to Wade Morrison, a local shop owner, and Mr Morrison instantly agreed to stock the drink. The distinctive, bold taste of Dr Pepper has been popular ever since."
+		},
+		{
+			"galleryTitle": "3D Images",
+			"galleryDescription": "You should consider rendering your 3D Image Gallery objects in 3ds Max 2017 with Mental Ray"
+		},
+		{
+			"CameraTitle": "Camera Views",
+			"CameraSubtitle": "These buttons select a range of X3D model viewpoints"
 		}
 	]
 }
