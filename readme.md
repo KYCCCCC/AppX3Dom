@@ -1,16 +1,13 @@
-+
-
 # X3Dom APP WEB
 
+[commit log](log.md) doc too view commit snapshot.
 
+3d archive in [3d](3d) directory
 
 ## github repositories
 
 [https://github.com/KYCCCCC/AppX3Dom](https://github.com/KYCCCCC/AppX3Dom)
 
-[commit log](log.md) doc too view commit snapshot.
-
-3d archive in [3d](3d) directory
 
 ```
  git config --global user.name "KYCCCCC"

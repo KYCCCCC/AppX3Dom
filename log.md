@@ -20,3 +20,11 @@ Commit 4 : Future cola
 Commit 5 : sqlite
 
 ![commit5](doc/commit_5.jpg)
+
+Commit 6 : update contest
+
+![commit6](doc/commit_6.jpg)
+
+Commit 7 : finish
+
+![commit7](doc/commit_7.jpg)
