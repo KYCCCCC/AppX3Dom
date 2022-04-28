@@ -10,6 +10,8 @@
 
 [commit log](log.md) doc too view commit snapshot.
 
+3d archive in [3d](3d) directory
+
 ```
  git config --global user.name "KYCCCCC"
  git config --global user.email "1659104012@qq.com"
