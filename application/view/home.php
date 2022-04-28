@@ -20,7 +20,7 @@
     <!-- fancyBox3 -->
     <link rel="stylesheet" type="text/css" href="static/css/jquery.fancybox.min.css">
     
-    <title>Lab 9 MVC Web 3D Applications</title>
+    <title>Best assignment of All!</title>
 
   </head>
   <body id="bodyColor">
@@ -87,7 +87,7 @@
             <div class="row">
                   <div class="col-sm-4">
                       <div class="card img-narrow">
-                          <a href="static/assets/images/renderImages/coke.jpg" data-fancybox data-caption="My 3D Coke Can Render">
+                          <a href="static/assets/images/renderImages/future_cola.jpg" data-fancybox data-caption="My 3D Coke Can Render">
                             <img class="card-img-top img-fluid img-thumbnail" src="static/assets/images/future_cola.jpg" alt="Future Cola">
                           </a>
                           <div class="card-body">
@@ -101,7 +101,7 @@
                   
                   <div class="col-sm-4">
                       <div class="card">
-                          <a href="static/assets/images/renderImages/sprite.jpg" data-fancybox data-caption="My 3D Sprite Bottle Render" class="img-narrow">
+                          <a href="static/assets/images/renderImages/pepsi.jpg" data-fancybox data-caption="My 3D Sprite Bottle Render" class="img-narrow">
                             <img class="card-img-top img-fluid img-thumbnail" src="static/assets/images/peps.jpg" alt="pepsi">
                           </a>
                           <div class="card-body">
@@ -116,7 +116,7 @@
                   
                   <div class="col-sm-4">
                       <div class="card img-narrow">
-                          <a href="static/assets/images/renderImages/pepper.jpg" data-fancybox data-caption="My 3D Pepper Cup Render" class="thumbnail">
+                          <a href="static/assets/images/renderImages/shifukong.jpg" data-fancybox data-caption="My 3D Pepper Cup Render" class="thumbnail">
                             <img class="card-img-top img-fluid img-thumbnail" src="static/assets/images/shifukong.jpg" alt="shifu kong">
                           </a>
                           <div class="card-body">

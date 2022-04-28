@@ -8,7 +8,7 @@
 /* Method to declare your own fonts */
 @font-face {
 	font-family: cocaColaFont;
-	src: url(http://users.sussex.ac.uk/~martinwh/3dapp/lab9/CocaCola_VM/application/fonts/lokicola.ttf);
+	src: url(../fonts/lokicola.ttf);
 }
 
 /* Extra small devices (portrait phones, less than 576px)
