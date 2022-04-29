@@ -3,16 +3,16 @@
 <X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
   <Scene DEF='scene'>
     <!-- CONTROLS NAVIGATION MODE AND HEAD LIGHT-->
-    <!-- <NavigationInfo  DEF="headlight" headlight="false" type='"EXAMINE"'/> -->
+    <NavigationInfo  DEF="headlight" headlight="true" type='"EXAMINE"'/>
     
     <!-- CONTROLS LIGHTS-->
-    <!-- <PointLight DEF='Omni001-6' intensity='0.4' location='-1860 1456 -1416' radius='10750'/>
+    <PointLight DEF='Omni001-6' intensity='0.4' location='-1860 1456 -1416' radius='10750'/>
     <PointLight DEF='Omni002-7' intensity='0.4' location='1940 1456 -1404' radius='10750'/>
     <PointLight DEF='Omni003-8' intensity='0.4' location='-9.502 1456 1745' radius='10750'/>
     <PointLight DEF='Omni004-11' intensity='0.4' location='11.65 -1231 -1432' radius='10750'/>
     <PointLight DEF='Omni005-12' intensity='0.4' location='1945 -1189 1764' radius='10750'/>
     <PointLight DEF='Omni006-13' intensity='0.4' location='-1931 -1189 1790' radius='10750'/>
-     -->
+    
     <!-- CONTROLS CAMERAS -->
     <Viewpoint DEF='CameraFront' description='CameraFront' orientation='0 0 -1 -0.007317' position='0 0 2200' fieldOfView='0.5274'/>
     <Viewpoint DEF='CameraRight' description='CameraRight' orientation='-3.304e-005 -1 -3.304e-005 -1.571' position='2200 0 0' fieldOfView='0.5274'/>
