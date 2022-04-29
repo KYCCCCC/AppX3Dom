@@ -26,7 +26,8 @@ var response;
 
 $(document).ready(function() {
 	// Set up the path to the PHP function that reads the image directory to find the thumbnail file names
-	var send = "../application/view/hook.php";
+	// var send = "../application/view/hook.php";
+	var send = "index.php?hook";
 	console.log(send);
 	// Open the connection to the web server
 	xmlHttp.open("GET", send, true);

@@ -20,6 +20,11 @@ class Controller{
         $this->load->view('home',$brands);
     }
 
+    function hook(){
+        $msg = "static/assets/images/gallery_images/future_cola.jpg~static/assets/images/gallery_images/Coke.png~static/assets/images/gallery_images/Sprite.png~static/assets/images/gallery_images/Coke Light.png";
+        echo $msg;
+    }
+
     function update(){
         // echo "update";
         $in = $_REQUEST;
