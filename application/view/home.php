@@ -1,4 +1,4 @@
-   <!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -33,7 +33,7 @@
           <?php require "page_about.php" ?>
           <?php require "page_models.php" ?>
       </div>
-      
+      <?php require "page_footer.php" ?>
       <?php require "page_contact.php" ?>
 
       <!-- JavaScript -->

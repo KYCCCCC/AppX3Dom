@@ -21,17 +21,33 @@
     <Viewpoint DEF='CameraBottom' description='CameraBottom' orientation='0 -0.7071 0.7071 -3.142' position='0 -2200 -7.879e-005' fieldOfView='0.5274'/>
     <Viewpoint DEF='CameraTop' description='CameraTop' orientation='1 0 0 -1.571' position='0 2200 0.0001097' fieldOfView='0.5274'/>
 
-    <Transform DEF='CokeCan-Wrapper'>
+    <Transform DEF='Model-Wrapper'>
        
         <Transform rotation='-1 0 0 -1.57079' translation='194.1 -50.35 -2.24e-005'>
         
         <!-- CONTROLS ROTATION OF THE MODEL-->
-        <timeSensor DEF='RotationTimer' cycleInterval='4' loop='true' enabled='false'></timeSensor>
+        <timeSensor DEF='RotationTimer1' cycleInterval='4' loop='true' enabled='false'></timeSensor>
 
         <orientationInterpolator DEF='Rotator' key='0 0.25 0.5 0.75 1' keyValue='0 1 0 0 0 1 0 1.57079 0 1 0 3.14159  0 1 0 4.71239  0 1 0 6.28317'></orientationInterpolator>
           
-        <ROUTE fromNode='RotationTimer' fromField='fraction_changed' toNode='Rotator' toField='set_fraction'></ROUTE>
-        <ROUTE fromNode='Rotator' fromField='value_changed' toNode='CokeCan-Wrapper' toField='set_rotation'></ROUTE>
+        <ROUTE fromNode='RotationTimer1' fromField='fraction_changed' toNode='Rotator' toField='set_fraction'></ROUTE>
+        <ROUTE fromNode='Rotator' fromField='value_changed' toNode='Model-Wrapper' toField='set_rotation'></ROUTE>
+
+        <!-- CONTROLS ROTATION OF THE MODEL-->
+        <timeSensor DEF='RotationTimer2' cycleInterval='4' loop='true' enabled='false'></timeSensor>
+
+        <orientationInterpolator DEF='Rotator' key='0 0.25 0.5 0.75 1' keyValue='1 0 0 0 1 0 0 1.57079 1 0 0 3.14159  1 0 0 4.71239  1 0 0 6.28317'></orientationInterpolator>
+          
+        <ROUTE fromNode='RotationTimer2' fromField='fraction_changed' toNode='Rotator' toField='set_fraction'></ROUTE>
+        <ROUTE fromNode='Rotator' fromField='value_changed' toNode='Model-Wrapper' toField='set_rotation'></ROUTE>
+
+        <!-- CONTROLS ROTATION OF THE MODEL-->
+        <timeSensor DEF='RotationTimer3' cycleInterval='4' loop='true' enabled='false'></timeSensor>
+
+        <orientationInterpolator DEF='Rotator' key='0 0.25 0.5 0.75 1' keyValue='0 0 1 0 0 0 1 1.57079 0 0 1 3.14159 0 0 1 4.71239  0 0 1 6.28317'></orientationInterpolator>
+          
+        <ROUTE fromNode='RotationTimer3' fromField='fraction_changed' toNode='Rotator' toField='set_fraction'></ROUTE>
+        <ROUTE fromNode='Rotator' fromField='value_changed' toNode='Model-Wrapper' toField='set_rotation'></ROUTE>
 
       <Shape>
         <Appearance>

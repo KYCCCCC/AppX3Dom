@@ -10,7 +10,12 @@
   <X3D width="500px" height="500px">
   <scene>			
     <transform DEF='cube'>
-      <Inline nameSpaceName="light" mapDEFToID="true" url="static/assets/x3d/futurecola.x3d"></Inline>
+      <shape>
+        <appearance>
+          <material diffuseColor='red'/>
+        </appearance>
+	<box></box>
+      </shape>
     </transform>
  
     <timeSensor DEF='clock' cycleInterval='8' loop='true'></timeSensor>

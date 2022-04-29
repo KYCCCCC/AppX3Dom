@@ -19,7 +19,7 @@
     </div> <!-- End gallery column -->
 
     <!-- X3D Model -->
-    <div class="col-sm-6">
+    <div class="col-sm-9">
       <div class="card text-left">
         <div class="card-header">
           <ul class="nav nav-tabs card-header-tabs">
@@ -44,7 +44,7 @@
 
             <!-- Place the X3D code here -->
             <div class="model3D">
-              <x3d id="wire"  height='400px'>
+              <x3d id="wire" width='500px' height='400px'>
                 <scene>
                     <navigationInfo id="head" headlight='true' type='"EXAMINE"'></navigationInfo>
                     <background skyColor="0 0 0"></background>
@@ -125,10 +125,13 @@
 
       </div>
     </div>
-    <div class="col-sm-3">
-    <div id="interaction" class="row" style="display:none;">
-  <!-- <div class="col-sm-4"> -->
-    <div>
+
+
+  </div> <!-- End row for X3D Model and Gallery -->
+</div>
+
+<div id="interaction" class="row" style="display:none;">
+  <div class="col-sm-4">
     <div class="card text-left">
       <div class="card-header">
         <ul class="nav nav-tabs card-header-tabs">
@@ -160,11 +163,8 @@
         </div>
       </div>
     </div>
-
   </div>
-  <div>
-  <!-- </div>
-  <div class="col-sm-4"> -->
+  <div class="col-sm-4">
     <div class="card text-left">
       <div class="card-header">
         <ul class="nav nav-tabs card-header-tabs">
@@ -187,9 +187,7 @@
       </div>
     </div>
   </div>
-  <div>
-  <!-- </div> -->
-  <!-- <div class="col-sm-4"> -->
+  <div class="col-sm-4">
     <div class="card text-left">
       <div class="card-header">
         <ul class="nav nav-tabs card-header-tabs">
@@ -227,15 +225,7 @@
       </div>
     </div>
   </div>
-  <!-- </div> -->
 </div>
-
-    </div>
-
-
-  </div> <!-- End row for X3D Model and Gallery -->
-</div>
-
 
 
 

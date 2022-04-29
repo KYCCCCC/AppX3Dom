@@ -58,6 +58,7 @@ class Controller{
     }
 
     function getJson(){
+        sleep(3);
         // echo "get josn <hr>";
         $brands = $this->model->queryAllBrand();
 
